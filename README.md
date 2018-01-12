@@ -1,4 +1,4 @@
-#Indic NLP Library
+# Indic NLP Library
 
 The goal of the Indic NLP Library is to build Python based libraries for common text processing and Natural Language Processing in Indian languages. Indian languages share a lot of similarity in terms of script, phonology, language syntax, etc. and this library is an attempt to provide a general solution to very commonly required toolsets for Indian language text.
 
@@ -41,19 +41,19 @@ for examples
 
 http://anoopkunchukuttan.github.io/indic_nlp_library 
 
-##Author
+## Author
 Anoop Kunchukuttan ( anoop.kunchukuttan@gmail.com )
 
-##Version: 0.3
+## Version: 0.3
 
-##Revision Log
+## Revision Log
 0.3 : 21 Oct 2014: Supports morph-analysis between Indian languages
 
 0.2 : 13 Jun 2014: Supports transliteration between Indian languages and tokenization of Indian languages 
 
 0.1 : 12 Mar 2014: Initial version. Supports text normalization.
 
-##LICENSE
+## LICENSE
 
 Copyright Anoop Kunchukuttan 2013 - present
  

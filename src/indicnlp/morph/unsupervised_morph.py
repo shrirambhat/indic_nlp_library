@@ -97,7 +97,7 @@ class UnsupervisedMorphAnalyzer(MorphAnalyzerI):
 
         @param tokens: string sequence of words 
 
-        @return seuqence of morphemes 
+        @return list of segments in the document after morph analysis 
         """
 
         out_tokens=[]
@@ -133,7 +133,9 @@ if __name__ == '__main__':
     if len(sys.argv)==6:
         add_marker= True if sys.argv[5] == 'True' else False 
 
+    print 'Loading morph analyser for ' + language 
     analyzer=UnsupervisedMorphAnalyzer(language,add_marker)
+    print 'Loaded morph analyser for ' + language 
 
     with codecs.open(sys.argv[1],'r','utf-8') as ifile:
         with codecs.open(sys.argv[2],'w','utf-8') as ofile:
